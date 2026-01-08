@@ -93,21 +93,24 @@
             <div class="question" data-aos="fade-up">
                 <h4 class="ques-title">Event Future Gate ما هو<i class="fa-solid fa-chevron-down"></i></h4>
                 <div class="answer">
-                    <p>هو إيفنت تعليمي عملي مخصص للشباب، هدفه تعريفك بالمهارات المطلوبة في سوق العمل وإزاي تحوّلها لمصدر دخل حقيقي، من خلال خريطة طريق واضحة وبسيطة.</p>
+                    <p>هو إيفنت تعليمي عملي مخصص للشباب، هدفه تعريفك بالمهارات المطلوبة في سوق العمل وإزاي تحوّلها لمصدر
+                        دخل حقيقي، من خلال خريطة طريق واضحة وبسيطة.</p>
                     <img src="images/logo.webp" alt="Logo">
                 </div>
             </div>
             <div class="question" data-aos="fade-up" data-aos-delay="100">
                 <h4 class="ques-title">الإيفنت مناسب لمين؟<i class="fa-solid fa-chevron-down"></i></h4>
                 <div class="answer">
-                    <p>الإيفنت مناسب لـ: الطلبة، الخريجين، اللي لسه بيبدأ، اللي محتار يدخل أنهي مجال، أي شاب عايز مصدر دخل أو يغيّر مساره المهني</p>
+                    <p>الإيفنت مناسب لـ: الطلبة، الخريجين، اللي لسه بيبدأ، اللي محتار يدخل أنهي مجال، أي شاب عايز مصدر
+                        دخل أو يغيّر مساره المهني</p>
                     <img src="images/logo.webp" alt="Logo">
                 </div>
             </div>
             <div class="question" data-aos="fade-up" data-aos-delay="200">
                 <h4 class="ques-title">هل لازم أكون عندي خبرة سابقة؟<i class="fa-solid fa-chevron-down"></i></h4>
                 <div class="answer">
-                    <p>لا. المحتوى معمول للمبتدئ واللي معندوش أي خلفية، وكمان هيفيد اللي عنده معرفة بسيطة وعايز يدخل صح.</p>
+                    <p>لا. المحتوى معمول للمبتدئ واللي معندوش أي خلفية، وكمان هيفيد اللي عنده معرفة بسيطة وعايز يدخل صح.
+                    </p>
                     <img src="images/logo.webp" alt="Logo">
                 </div>
             </div>
@@ -118,12 +121,42 @@
                     <img src="images/logo.webp" alt="Logo">
                 </div>
             </div>
+            <div class="question" data-aos="fade-up" data-aos-delay="400">
+                <h4 class="ques-title">هل المحتوى نظري ولا عملي؟<i class="fa-solid fa-chevron-down"></i></h4>
+                <div class="answer">
+                    <p>المحتوى مبني على التجربة والواقع، مش كلام نظري.
+                        الهدف إنك تخرج فاهم:
+
+                        تبدأ منين
+
+                        تختار إيه
+
+                        وتكمّل إزاي</p>
+                    <img src="images/logo.webp" alt="Logo">
+                </div>
+            </div>
+            <div class="question" data-aos="fade-up" data-aos-delay="500">
+                <h4 class="ques-title">هل الإيفنت أونلاين ولا أوفلاين؟<i class="fa-solid fa-chevron-down"></i></h4>
+                <div class="answer">
+                    <p>الإيفنت أوفلاين (حضور مباشر)</p>
+                    <img src="images/logo.webp" alt="Logo">
+                </div>
+            </div>
+            <div class="question" data-aos="fade-up" data-aos-delay="600">
+                <h4 class="ques-title">هل الدخول متاح بدون تذكرة؟<i class="fa-solid fa-chevron-down"></i></h4>
+                <div class="answer">
+                    <p>لا.
+                        الدخول يتم من خلال Ticket مدفوع فقط لضمان الجدية وجودة التجربة.</p>
+                    <img src="images/logo.webp" alt="Logo">
+                </div>
+            </div>
         </div>
     </section>
-
     <section class="submit" data-aos="zoom-in-up">
         <form action="https://api.web3forms.com/submit" method="POST">
             <input type="hidden" name="access_key" value="012017e6-ac85-48ec-86b7-7b4e6c2d5fc3">
+            <input type="hidden" name="subject" value="New Submission from Future Gate">
+            <input type="hidden" name="from_name" value="Future Gate">
             <div class="form-group">
                 <label>الاسم الاول</label>
                 <input type="text" placeholder="اكتب اسمك" name="First_name" required>
@@ -147,7 +180,13 @@
             <button type="submit">اضغط هنا وحد من الفريق هيتواصل معاك</button>
         </form>
     </section>
-
+    
+    <script>
+        window.onload = function() {
+            // Reset the form fields when the page loads
+            document.getElementById("form").reset();
+        };
+    </script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="main.js"></script>
 </body>
